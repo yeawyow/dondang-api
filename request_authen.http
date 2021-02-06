@@ -1,0 +1,29 @@
+
+### login POST
+POST http://localhost:8081/api/v2/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username_d":"yeaw2",
+    "password_d":"1234"
+   
+
+}
+
+
+
+### register
+POST http://localhost:8081/api/v2/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"kanthida2",
+    "password_d":"131717",
+    "pname":21,
+    "fullname":"กัลย์ธิดา  ใครบุตร",
+    "level":1
+   
+
+}
+
+
